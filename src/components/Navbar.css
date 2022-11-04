@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #121619c0;
+    width: 100%;
+    height: auto;
+}
+.left-side, .right-side{
+    padding: 2rem 1.2rem;
+}
+
+.links, .logo{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    padding-left: 1rem;
+    
+}
+.links{
+    padding: 2rem;
+   
+}
