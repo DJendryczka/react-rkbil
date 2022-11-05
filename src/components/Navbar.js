@@ -1,18 +1,39 @@
 import React from 'react'
+import { useState } from 'react';
 import './Navbar.css'
 import { Link } from 'react-router-dom'
+import ReorderOutlinedIcon from '@mui/icons-material/ReorderOutlined';
 function Navbar() {
+
+    const [openLinks, setOpenLinks] = useState(false)
+
+    const toggleButton = () => {
+        setOpenLinks(!openLinks)
+    }
+    //
   return (
     <div className='navbar'>
         <div className='left-side'>
-            <Link to='/' className='logo className='>RK Bilskadecenter AB</Link>
+            <Link to='/' className='logo className='>LOGO</Link>
         </div>
         <div className='right-side'>
-           <Link className='links' to='/'>HEM</Link>
-           <Link className='links' to='/About'>OM OSS</Link>
-           <Link className='links' to='/Services'>TJÄNSTER</Link>
-           <Link className='links' to='/Projects'>PROJEKT</Link>
-           <Link className='links' to='/Contact'>KONTAKT</Link>
+           <div className='links'>
+           <Link to='/'>HEM</Link>
+           <Link to='/About'>OM OSS</Link>
+           <Link to='/Services'>TJÄNSTER</Link>
+           <Link to='/Projects'>PROJEKT</Link>
+           <Link to='/Contact'>KONTAKT</Link>
+           </div>
+           <button  onClick={toggleButton}>
+            <ReorderOutlinedIcon />
+           </button>
+           <div className='hidden' id={openLinks ? 'open' : 'close'} >
+           <Link to='/'>HEM</Link>
+           <Link to='/About'>OM OSS</Link>
+           <Link to='/Services'>TJÄNSTER</Link>
+           <Link to='/Projects'>PROJEKT</Link>
+           <Link to='/Contact'>KONTAKT</Link>
+           </div>
         </div>
       
     </div>
