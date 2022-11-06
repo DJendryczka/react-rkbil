@@ -10,8 +10,6 @@
   padding: 2rem;
 }
 
-
-
 .navbar a {
   text-decoration: none;
   color: white;
@@ -43,15 +41,16 @@ button {
     justify-content: space-between;
   }
 
-   #open,
-   .right-side,
-   button{
+  #open,
+  button {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
- 
+
+
   .hidden a {
     padding: 1.3rem 0;
+    
   }
 }
