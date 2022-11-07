@@ -7,7 +7,7 @@ const Home = () => {
       <video src={SplashImg} autoPlay loop muted />
       <div className='overlay'></div>
       <div className='header'>
-        <h1>Välkommen till RKBilskadecenter AB</h1>
+        <h1>Välkommen till <br/><span className='company-name'>RK Bilskadecenter AB</span></h1>
         <h2>Din lokala bilskadereparatör</h2>
       </div>
     </div>

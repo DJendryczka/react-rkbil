@@ -30,8 +30,8 @@ function Navbar() {
             <ReorderOutlinedIcon />
           </button>
           <div className='hidden' id={openLinks ? 'open' : 'close'}>
-            <Link to='/'>HEM</Link>
-            <Link to='/About'>OM OSS</Link>
+            <Link onClick={toggleButton} to='/'>HEM</Link>
+            <Link onClick={toggleButton} to='/About'>OM OSS</Link>
             <Link to='/Services'>TJÄNSTER</Link>
             <Link to='/Projects'>PROJEKT</Link>
             <Link to='/Contact'>KONTAKT</Link>
