@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/About.css';
 import Aboutimg from '../../assets/rkfront.jpg';
+import Maskinimg from '../../assets/benk.jpg';
 
 const About = () => {
   return (
@@ -18,6 +19,19 @@ const About = () => {
             stora så som små uppdrag. Någgrannhet och snabba leveranser är vår
             starka sida.
           </p>
+        </div>
+      </div>
+      <div className='container-box'>
+        <div className='box'>
+          <h1 className='about-tittle'>Vår Maskinpark</h1>
+          <p className='about-text'>
+            RK Bilskadecenter är utrustad med moderna riktbänkar tillåter att 
+            utföra reparationer inom klass 2. Det vill sega att reparera stora krockar, där man måste 
+            återställa bilen till dess usprungliga mått. Vår maskinpark uppdateras ständigt, för att mötta de krav reparationer krever.
+          </p>
+        </div>
+        <div className='img-box'>
+          <img src={Maskinimg} alt='RK Bil dragbänk' className='img' />
         </div>
       </div>
     </div>

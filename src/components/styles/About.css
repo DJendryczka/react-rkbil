@@ -1,15 +1,17 @@
 .container {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background-color: black;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   padding-top: 5rem;
 }
 .container-box {
   width: 80vw;
-  height: 100vh;
+  height: auto;
+  margin: 3rem 0 ;
   background-color: black;
   display: flex;
   justify-content: space-evenly;
@@ -19,7 +21,7 @@
 .img-box {
   max-width: 500px;
   min-height: 340px;
-  margin: 0.5rem;
+  margin: 1rem;
 
   border-radius: 1.5rem;
 }
@@ -29,7 +31,7 @@
   background-color: rgb(66, 1, 151);
   padding: 1rem;
   border-radius: 1.5rem;
-  margin: 0.5rem;
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
