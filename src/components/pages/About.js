@@ -34,6 +34,16 @@ const About = () => {
           <img src={Maskinimg} alt='RK Bil dragbänk' className='img' />
         </div>
       </div>
+      <div className='container-box'>
+      <div className='box'>
+          <h1 className='about-tittle'>Vår Arbetsätt</h1>
+          <p className='about-text'>
+            RK Bilskadecenter läger stor vikt till kvalitet. Det uppnår vi genom vår mongåriga erfaranhet
+            samt  alltid följa
+            fabrikantens anvissningar. På detta sätet känner vi oss tryga med utfört arbete.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

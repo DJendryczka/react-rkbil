@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
+import Projects from './components/pages/Projects';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path='/' exact element={<Home />} />
           <Route path='/About' element={<About />} />
+          <Route path='/Projects' element={<Projects />} />
         </Routes>
         <Footer />
       </Router>

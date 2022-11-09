@@ -11,7 +11,7 @@
 .container-box {
   width: 80vw;
   height: auto;
-  margin: 3rem 0 ;
+  margin: 2rem 0 ;
   background-color: black;
   display: flex;
   justify-content: space-evenly;
@@ -43,7 +43,7 @@
 }
 .about-tittle {
   color: whitesmoke;
-  font-size: 2.9rem;
+  font-size: 2.5rem;
   margin: 0;
 }
 .about-text {
