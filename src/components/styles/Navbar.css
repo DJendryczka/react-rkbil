@@ -22,7 +22,7 @@
 .hidden {
   display: none;
 }
-button {
+.nav-btn {
   display: none;
   background-color: transparent;
   color: white;

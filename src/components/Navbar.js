@@ -26,7 +26,7 @@ function Navbar() {
             <Link to='/Projects'>PROJEKT</Link>
             <Link to='/Contact'>KONTAKT</Link>
           </div>
-          <button onClick={toggleButton}>
+          <button className='nav-btn' onClick={toggleButton}>
             <ReorderOutlinedIcon />
           </button>
           <div className='hidden' id={openLinks ? 'open' : 'close'}>
