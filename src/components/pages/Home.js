@@ -7,8 +7,19 @@ const Home = () => {
       <video src={SplashImg} autoPlay loop muted />
       <div className='overlay'></div>
       <div className='header'>
-        <h1 className='splash-text'>Välkommen till <br/><span className='company-name'>RK Bilskadecenter AB</span></h1>
-        <h2>Din lokala bilskadereparatör</h2>
+        <h1 className='splash-text'>
+          Välkommen till <br />
+          <span className='company-name'>RK Bilskadecenter AB</span>
+        </h1>
+
+        <div className='splash-card-text'>
+          <h2>Har du en krockskadad bil ? Då har du kommit rätt. </h2>
+          <p>
+            Våra tjänster består av bilplåt reparationer samt lackering av alla
+            bilmärke. Ingen skada är för liten eller för stor. Kontakta oss för
+            offert.
+          </p>
+        </div>
       </div>
     </div>
   );

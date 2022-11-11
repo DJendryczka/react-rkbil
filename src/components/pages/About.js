@@ -22,6 +22,9 @@ const About = () => {
         </div>
       </div>
       <div className='container-box'>
+      <div className='img-box'>
+          <img src={Maskinimg} alt='RK Bil dragbänk' className='img' />
+        </div>
         <div className='box'>
           <h1 className='about-tittle'>Vår Maskinpark</h1>
           <p className='about-text'>
@@ -30,17 +33,15 @@ const About = () => {
             återställa bilen till dess usprungliga mått. Vår maskinpark uppdateras ständigt, för att mötta de krav reparationer krever.
           </p>
         </div>
-        <div className='img-box'>
-          <img src={Maskinimg} alt='RK Bil dragbänk' className='img' />
-        </div>
+        
       </div>
       <div className='container-box'>
       <div className='box'>
           <h1 className='about-tittle'>Vår Arbetsätt</h1>
           <p className='about-text'>
-            RK Bilskadecenter läger stor vikt till kvalitet. Det uppnår vi genom vår mongåriga erfaranhet
-            samt  alltid följa
-            fabrikantens anvissningar. På detta sätet känner vi oss tryga med utfört arbete.
+            RK Bilskadecenter läger stor vikt till kvalitet. Det uppnår vi genom vår mångåriga erfaranhet
+            samt att vi alltid följer
+            fabrikantens anvissningar. På detta sätet känner vi oss trygga med utfört arbete.
           </p>
         </div>
       </div>

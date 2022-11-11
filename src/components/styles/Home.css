@@ -34,10 +34,19 @@ video{
 }
 .header h2{
     color: whitesmoke;
-    font-size: 2rem;
+    font-size: 2.4rem;
+}
+.splash-card-text{
+    color: whitesmoke;
+    width: 30%;
+    margin: 0 auto;
+}
+.splash-card-text p{
+    font-size: 1.6rem;
+    letter-spacing: 2px;
 }
 .company-name{
-    color: rgb(221, 20, 20);
+    color: rgb(216, 3, 3);
 }
 @media screen and (max-width: 795px) {
     .header h1{
@@ -46,7 +55,14 @@ video{
     }
     .header h2{
         color: whitesmoke;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
+    }
+    .splash-card-text{
+        width: 80%;
+    }
+    .splash-card-text p{
+        font-size: 1.2rem;
+        letter-spacing: 2px;
     }
   }
   
