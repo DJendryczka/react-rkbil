@@ -14,7 +14,7 @@ const About = () => {
           <h1 className='about-tittle'>Om Oss</h1>
           <p className='about-text'>
             RK Bilskadecenter är ett relativt ny startad företag, dock med många
-            års erfaranhet inom bilplåtskador. Vi följer alltid fabrikantenss
+            års erfaranhet inom bilplåtskador. Vi följer alltid fabrikantens
             anvisningar och uppdaterar vår kunskap om dessa löpande. Vi åtar oss
             stora så som små uppdrag. Någgrannhet och snabba leveranser är vår
             starka sida.
@@ -28,9 +28,9 @@ const About = () => {
         <div className='box'>
           <h1 className='about-tittle'>Vår Maskinpark</h1>
           <p className='about-text'>
-            RK Bilskadecenter är utrustad med moderna riktbänkar tillåter att 
-            utföra reparationer inom klass 2. Det vill sega att reparera stora krockar, där man måste 
-            återställa bilen till dess usprungliga mått. Vår maskinpark uppdateras ständigt, för att mötta de krav reparationer krever.
+            RK Bilskadecenter är utrustad med moderna riktbänkar, vilka tillåter att 
+            utföra reparationer inom klass 2. Det vill säga att reparera stora krockar, där man måste 
+            återställa bilen till dess usprungliga mått. Vår maskinpark uppdateras ständigt, för att mötta de krav reparationer kräver.
           </p>
         </div>
         
@@ -41,7 +41,7 @@ const About = () => {
           <p className='about-text'>
             RK Bilskadecenter läger stor vikt till kvalitet. Det uppnår vi genom vår mångåriga erfaranhet
             samt att vi alltid följer
-            fabrikantens anvissningar. På detta sätet känner vi oss trygga med utfört arbete.
+            fabrikantens anvisningar. På detta sättet känner vi oss trygga med utfört arbete.
           </p>
         </div>
       </div>
