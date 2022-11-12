@@ -20,7 +20,7 @@
 }
 
 .img-box {
-  max-width: 500px;
+  width: 500px;
   height: 400px;
   margin: 1.5rem;
   
@@ -68,6 +68,7 @@
     line-height: 1.3rem;
   }
   .img-box{
+    width: 85%;
     margin-bottom: 3rem;
   }
 }
