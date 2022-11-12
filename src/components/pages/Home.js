@@ -16,8 +16,9 @@ const Home = () => {
           <h2>Har du en krockskadad bil ? Då har du kommit rätt. </h2>
           <p>
             Våra tjänster består av bilplåt reparationer samt lackering av alla
-            bilmärke. Ingen skada är för liten eller för stor. Kontakta oss för
-            offert.
+            bilmärke.<br/>
+            Vi äslkar bilar och tar väll hand om de!.<br/>
+            Ring Robban +46 762696401 och boka tid.
           </p>
         </div>
       </div>

@@ -10,7 +10,7 @@ import '../styles/Project.css'
 const Projects = () => {
   return (
     <div className='projects'>
-           <h1>Våra Projekt</h1>
+           <h1>Några av Våra Projekt</h1>
            <div class="img-container">
               <div className='img-card'><img src={Rep1} alt='Rep ab bil' /></div>
               <div className='img-card'><img src={Rep2} alt='Rep ab bil' /></div>

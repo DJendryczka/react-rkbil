@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import './styles/Navbar.css'
+import './styles/Navbar.css';
 import { Link } from 'react-router-dom';
 import ReorderOutlinedIcon from '@mui/icons-material/ReorderOutlined';
 function Navbar() {
@@ -22,7 +22,7 @@ function Navbar() {
           <div className='links'>
             <Link to='/'>HEM</Link>
             <Link to='/About'>OM OSS</Link>
-            <Link to='/Services'>TJÄNSTER</Link>
+
             <Link to='/Projects'>PROJEKT</Link>
             <Link to='/Contact'>KONTAKT</Link>
           </div>
@@ -30,11 +30,19 @@ function Navbar() {
             <ReorderOutlinedIcon />
           </button>
           <div className='hidden' id={openLinks ? 'open' : 'close'}>
-            <Link onClick={toggleButton} to='/'>HEM</Link>
-            <Link onClick={toggleButton} to='/About'>OM OSS</Link>
-            <Link to='/Services'>TJÄNSTER</Link>
-            <Link onClick={toggleButton} to='/Projects'>PROJEKT</Link>
-            <Link to='/Contact'>KONTAKT</Link>
+            <Link onClick={toggleButton} to='/'>
+              HEM
+            </Link>
+            <Link onClick={toggleButton} to='/About'>
+              OM OSS
+            </Link>
+
+            <Link onClick={toggleButton} to='/Projects'>
+              PROJEKT
+            </Link>
+            <Link onClick={toggleButton} to='/Contact'>
+              KONTAKT
+            </Link>
           </div>
         </div>
       </div>
