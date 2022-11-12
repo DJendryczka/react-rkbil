@@ -4,7 +4,7 @@ import SplashImg from '../../assets/car.mp4';
 const Home = () => {
   return (
     <div className='container-home'>
-      <video src={SplashImg} autoPlay loop muted />
+      <video src={SplashImg} autoPlay loop muted playsInline  />
       <div className='overlay'></div>
       <div className='header'>
         <h1 className='splash-text'>
