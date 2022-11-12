@@ -18,8 +18,8 @@ const Projects = () => {
             </div>
             <div class="img-container">
               <div className='img-card'><img src={Rep4} alt='Rep ab bil' /></div>
+              <div className='img-card'><img src={Rep5} alt='Rep ab bil' /></div>
               <div className='img-card'><img src={Rep6} alt='Rep ab bil' /></div>
-              <div className='img-card'><img src={Rep1} alt='Rep ab bil' /></div>
             </div>
     </div>
   )
