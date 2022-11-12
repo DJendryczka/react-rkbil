@@ -43,6 +43,10 @@
   height: 100%;
   object-fit: cover;
   border-radius: 1.5rem;
+  transition: all 1s;
+}
+.img:hover{
+  transform: scale(1.6);
 }
 .about-tittle {
   color: whitesmoke;
