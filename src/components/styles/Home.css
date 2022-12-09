@@ -51,20 +51,20 @@ video{
 .company-name{
     color: rgb(216, 3, 3);
 }
-@media screen and (max-width: 795px) {
+@media screen and (max-width: 820px) {
     .header h1{
         color: rgb(240, 234, 234);
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
     .header h2{
         color: whitesmoke;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .header{
-        width: 90%;
+        width: 80%;
     }
     .splash-card-text p{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         letter-spacing: 2px;
     }
   }

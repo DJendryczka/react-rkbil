@@ -15,7 +15,7 @@ function Navbar() {
       <div className='navbar'>
         <div className='left-side'>
           <Link to='/' className='logo className='>
-            LOGO
+            <p>RK Bilskadecenter AB</p>
           </Link>
         </div>
         <div className='right-side'>
