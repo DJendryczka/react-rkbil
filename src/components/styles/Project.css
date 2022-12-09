@@ -35,7 +35,7 @@
     transition: all 1s;
   }
   .img-card img:hover{
-    transform: scale(2.2);
+    transform: scale(1.2);
   }
   @media screen and (max-width: 969px) {
     .img-container {
