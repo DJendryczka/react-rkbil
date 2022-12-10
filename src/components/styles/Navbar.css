@@ -27,6 +27,9 @@
   color: white;
   padding-left: 3rem;
 }
+.color{
+  color: red;
+}
 
 .hidden {
   display: none;
