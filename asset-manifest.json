@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-rkbil/static/css/main.46caaf78.css",
+    "main.js": "/react-rkbil/static/js/main.2d20b550.js",
+    "static/media/car.mp4": "/react-rkbil/static/media/car.ca69399895febd400286.mp4",
+    "static/media/benk.jpg": "/react-rkbil/static/media/benk.7dc05e389b1bbd79cba9.jpg",
+    "static/media/rep5.jpg": "/react-rkbil/static/media/rep5.8f7f84a3095bd4a8692f.jpg",
+    "static/media/rk.jpg": "/react-rkbil/static/media/rk.c68b6f323373a2ba4a0d.jpg",
+    "static/media/rep3.jpg": "/react-rkbil/static/media/rep3.12a1baa3d9ffa2450108.jpg",
+    "static/media/rep4.jpg": "/react-rkbil/static/media/rep4.8aeba50e87f5e45e33b8.jpg",
+    "static/media/rep2.jpg": "/react-rkbil/static/media/rep2.3db8bfcb48a527e9e233.jpg",
+    "static/media/rep6.jpg": "/react-rkbil/static/media/rep6.6904fdbd9103f2738068.jpg",
+    "static/media/rep1.jpg": "/react-rkbil/static/media/rep1.1f66ac9e9c4a4f2e7e0d.jpg",
+    "index.html": "/react-rkbil/index.html",
+    "main.46caaf78.css.map": "/react-rkbil/static/css/main.46caaf78.css.map",
+    "main.2d20b550.js.map": "/react-rkbil/static/js/main.2d20b550.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46caaf78.css",
+    "static/js/main.2d20b550.js"
+  ]
+}
